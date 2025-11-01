@@ -45,7 +45,7 @@ export const App = () => {
                 className={isSelected ? 'has-background-success-light' : ''}
               >
                 <td>
-                  {!selectedGood && (
+                  {!isSelected && (
                     <button
                       data-cy="AddButton"
                       type="button"
